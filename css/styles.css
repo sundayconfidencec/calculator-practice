@@ -1,0 +1,46 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body {
+	background-color: #f0f0f0;
+	margin-top: 50px;
+	align-items: center;
+}
+#mainsec {
+	padding: 10px;
+	height: inherit;
+}
+
+.rw {
+	border: 1px solid gray;
+}
+.col-md-12 {
+    padding: 10px;
+     background-color: gray;
+     color: white;
+}
+.col-md-3 {
+    border-left: 1px solid gray;
+    padding: 10px;
+    color: black;
+    
+}
+.color {
+	background-color: #ff7762;
+	color: black;
+}
+
+@media screen and (max-width:768px){
+.col-md-3 {	
+	width: 25%;
+}
+.col-md-6 {
+	width: 50%;
+	padding: 10px;
+}
+}
+
+
+
